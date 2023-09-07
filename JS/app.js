@@ -17,13 +17,9 @@ console.log(precios.reduce(sumaTotal));
 
 
 //Calculo del valor promedio
-let avg = sumaTotal / precios.length;
+let avg = sumaTotal / precios.length; // o longitud
 console.log(avg);
-
-
 
 //Valor maximo
 let valorMaximo = Math.max(...precios);
 console.log(valorMaximo);
-
-//precios menores
